@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+body{
+    height: 100vh;
+    background: url(./abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980.avif);
+    background-size:cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    background-color:white ;
+    background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+    padding-left: .5em;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: White;
+    border: solid black 2px;
+    color: black;
+    border-radius: 20px;
+    width: 95%;
+    height: 65%;
+    align-items: center;
+}
+#btn {
+    background-color: rgb(43, 107, 180);
+    background-blend-mode: lighten;
+    
+}
+input[type=button] {
+    font-family: sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    background-color: lightgray;
+    color: black;
+    border: solid black 1.5px;
+    width: 100px;
+    margin-left: 0.5em;
+    border-radius:7px;
+    height:70%;
+    outline:black;
+}
+input:active[type=button] {
+    background: Red;
+    -webkit-box-shadow: inset 0px 0px 2px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
